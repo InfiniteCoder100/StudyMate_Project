@@ -1,0 +1,454 @@
+.story{
+    margin-bottom: 6%;
+width: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+.s-title{
+margin-top: 3%;
+margin-bottom: 2%;
+text-align: center;
+font-size: 1.8rem;
+width: 20%;
+border: 2px solid black;
+border-radius: 18px;
+word-spacing: 10px;
+letter-spacing: 1px;
+background-color: rgb(143, 147, 146);
+}
+.s-title2{
+margin-bottom: 4%;
+text-align: center;
+font-size: 2.2rem;
+text-transform: capitalize;
+}
+.companies{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 95vh; */
+    width: 90%;
+    margin-bottom: 5%;
+}
+.c-slider{
+    height: 110px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    width: 80%;
+}
+.c-slider .c-sliderTrack{
+  -webkit-animation: scroll 20s linear infinite;
+  animation: scroll 20s linear infinite;
+  display: flex;
+  width: calc(450px * 14);
+
+}
+.c-slider .company{
+    height: 180px;
+    width: 350px;
+}
+.c-slider .company img{
+    width: 90%;
+    height: 120px;
+    cursor: pointer;
+}
+
+/* student stories */
+
+.s-stories{
+    margin-top: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+/* border: 2px solid black; */
+    width: 90%;
+    margin-bottom: 5%;
+}
+.story-slider{
+   height: auto;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid red; */
+}
+
+.story-slideTracker .story-card{
+    height: 100%;
+    width: 350px;
+    object-fit: cover;
+    margin: 10px 55px;
+/* border: 2px solid green; */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+
+/* z-index: -5; */
+cursor: pointer;
+
+/* color: white; */
+}
+
+.story-card .story-title{
+/* line-height: 8%; */
+line-height: 30px;
+margin-bottom: 5px;
+}
+.story-card .story-title1{
+    font-size: 1.3rem;
+    color: rgb(53, 55, 200);
+    text-transform: uppercase;
+    letter-spacing:1px ;
+    
+}
+.story-card .story-title2{
+
+}
+.story-card .story-title3{
+color: white;
+font-style: italic;
+font-size: 1.1rem;
+background-color: rgb(90, 88, 88);
+width: 50%;
+border-radius: 20px;
+text-align: center;
+margin-left: 50px;
+}
+.s-body{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    
+
+}
+
+.s-body img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    /* border: 2px solid green; */
+    object-fit: cover;
+    margin-right: 0.5rem;
+   
+}
+.s-body .s-rightBody{
+    flex: 2;
+}
+.s-body .s-rightBody{
+    /* display: flex;
+    flex-direction: column; */
+}
+.s-rightBody .s-rightSubBody{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5%;
+}
+.s-rightBody{
+    line-height: 30px;
+}
+.s-rightBody .std-name{
+    font-size: 1.2rem;
+    text-transform: capitalize;
+
+}
+.s-rightBody .std-branch{
+    font-size: 1.1rem;
+    font-weight: 400;
+    /* color: rgb(101, 62, 242); */
+    
+}
+.s-rightBody .edu-code{
+    align-items: center;
+    font-weight: bold;
+   
+}
+.s-rightSubBody1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.s-rightSubBody2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+}
+.s-rightBody .std-address{
+
+}
+.s-rightBody .package{
+    background-color: rgb(216, 160, 160);
+    border-radius: 10px;
+ margin: 12% 0;
+}
+.s-rightBody .role{
+    font-size: 1.1rem;
+    color: rgb(88, 87, 86);
+}
+
+
+
+
+@-webkit-keyframes scroll{
+    0%{
+        transform: translateX(0);
+
+    }
+    100%{
+        transform: translateX(calc(-250px * 7));
+    }
+}
+@keyframes scroll{
+    0%{
+        transform: translateX(0);
+
+    }
+    100%{
+        transform: translateX(calc(-250px * 7));
+    }
+}
+.story-slideTracker{
+    -webkit-animation: story 85s linear infinite;
+    animation: story 85s linear infinite;
+    display: flex;
+    width: calc(160px * 9);
+}
+@-webkit-keyframes story{
+    0%{
+        transform: translateX(0);
+
+    }
+    100%{
+        transform: translateX(calc(-528px * 10));
+    }
+}
+@keyframes story{
+    0%{
+        transform: translateX(0);
+
+    }
+    100%{
+        transform: translateX(calc(-528px*10));
+    }
+}
+
+/* brochure and register */
+
+.br{
+  width: 77%;  
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ position: relative;
+  /* height: 15vh; */
+}
+.register{
+    display: flex;
+    /* flex: 2; */
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    text-align: center;
+    height: 370px;
+    width: 46%;
+/* border: 2px solid rgb(17, 18, 17); */
+border-radius: 10px;
+    background-color: rgba(6, 28, 83, 0.96);
+}
+.brochure{
+    display: flex;
+    /* flex: 2; */
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    height: 370px;
+    width: 46%;
+   /* border: 2px solid rgb(238, 23, 234); */
+   border-radius: 10px;
+    background-color: rgba(6, 28, 83, 0.96);
+    /* line-height: 5rem; */
+    text-align: center;
+}
+.br-title1{
+    margin: 55px 0;
+    font-size: 2.5rem;
+    color: white;
+}
+.br-title2{
+    margin-bottom: 65px;
+    color: rgb(185, 189, 189);
+    font-weight: 400;
+}
+.br-btn{
+    width: 32%;
+    height: 15%;
+    font-size: 1.2rem;
+    color: white;
+    background-color: rgb(27, 45, 201);
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.br-btn:hover{
+    background-color: rgb(41, 60, 228) ;
+}
+
+
+
+/* approved certificate */
+
+.our-certificate{
+margin-top: 4%;
+width: 80%;
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.our-certificate .oc-title{
+margin-bottom: 75px;
+text-transform: capitalize;
+font-size: 2rem;
+word-spacing: 2px;
+}
+.certificate-approve{
+    width: 100%;
+display: flex;
+justify-content: space-around;
+align-items: center;
+
+}
+.certificate-approve .ac-images{
+
+
+}
+.ac-images img{
+object-fit: contain;
+width:240px ;
+height: 200px;
+}
+
+
+@media screen and (max-width:768px){
+    .story{
+        margin-top: 120%;
+    }
+    /* .s-title{
+        margin-top: 3%;
+        margin-bottom: 2%;
+        text-align: center;
+        font-size: 1.8rem;
+        width: 20%;
+        border: 2px solid black;
+        border-radius: 18px;
+        word-spacing: 10px;
+        letter-spacing: 1px;
+        background-color: aquamarine;
+        } */
+    .c-slider .c-sliderTrack{
+    
+        width: calc(250px * 14);
+      
+      }
+      .s-title{
+        margin-top: 0%;
+        margin-bottom: 6%;
+        /* text-align: center; */
+        font-size: 1.4rem;
+        width: 65%;
+       
+        background-color: rgb(197, 219, 212);
+        }
+        .s-stories{
+            
+        /* border: 2px solid black; */
+            width: 100%;
+            margin-bottom: 5%;
+        }
+        .story-slider{
+        width: 95%;
+        margin-top: 15%;
+        }
+
+
+
+        .br{
+            width: 100%;  
+           
+            flex-direction: column;
+         
+           
+          }
+          .register{
+             
+              flex-direction: column;
+             
+              height: 340px;
+              width: 99%;
+        margin-bottom: 25px;
+          
+          }
+          .brochure{
+          
+            flex-direction: column;
+           
+            height: 395px;
+            width: 99%;
+      
+        
+          }
+          .br-title1{
+              margin: 45px 0;
+              font-size: 2.5rem;
+              
+          }
+          .br-title2{
+              margin-bottom: 65px;
+              
+          }
+          .br-btn{
+              width: 55%;
+              height: 15%;
+              font-size: 1.2rem;
+             
+              background-color: rgb(47, 62, 237);
+              
+          }
+
+          /* approved certificate */
+
+.our-certificate{
+    margin-top: 15%;
+    width: 90%;
+    text-align: center;
+  
+    }
+    .our-certificate .oc-title{
+    margin-bottom: 30px;
+   
+    font-size: 1.8rem;
+    
+    }
+    .certificate-approve{
+        width: 100%;
+   
+    
+    }
+ 
+    .ac-images img{
+    
+    width:90px ;
+    height: 75px;
+    }
+         
+}

@@ -1,0 +1,179 @@
+.price{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+margin-bottom: 3%;
+}
+.price .price-title{
+text-align: center;
+margin-bottom: 4%;
+}
+.price-title .p-title1{
+font-size: 1.8rem;
+font-weight: 700;
+color: blueviolet;
+text-transform: uppercase;
+
+
+}
+.price-title .p-title2{
+font-size: 2.4rem;
+font-weight: 700;
+/* margin-top: 0.2%; */
+}
+.price .price-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+width: 85%;
+/* border: 2px solid red; */
+}
+.price-container .price-box{
+    box-shadow: 0px 3px 8px -0.5px rgba(0,0,0,0.75);
+    text-align: center;
+    padding: 20px 55px;
+width: 350px;
+height: 460px;
+/* border: 2px solid rgb(60, 224, 11); */
+display: flex;
+flex-direction: column;
+align-items: center;
+/* justify-content: space-around; */
+background-color: white;
+
+}
+.price-container .price-box:hover{
+    box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.75);
+}
+.price-box .p-plan{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+font-size: 1.4rem;
+text-transform: uppercase;
+word-spacing: 6px;
+}
+.price-box .p-amount{
+font-size: 2.5rem;
+margin-bottom: 2.5rem;
+color: rgb(10, 164, 175);
+
+}
+.p-amount span{
+font-size: 1.8rem;
+letter-spacing: 6px;
+}
+.price-box .p-desc{
+    margin-left: 20px;
+margin-bottom: 3.5rem;
+font-size: 16px;
+font-weight: 500;
+color: rgb(64, 61, 61);
+text-align: start;
+}
+.price .price-btn{
+padding: 14px 48px;
+text-align: center;
+font-size: 1rem;
+color: rgb(10, 164, 175);
+font-weight: 800;
+border-radius: 2px;
+border: 2px solid rgb(10, 164, 175);
+background-color: white;
+cursor: pointer;
+
+
+}
+.price .price-btn:hover{
+    color: white;
+    background-color:  rgb(10, 164, 175);
+    
+    }
+
+    @media screen and (max-width:768px) {
+        .price{
+        
+            margin-bottom: 7%;
+            }
+            
+            .price .price-title{
+                margin-top: 4%;
+            
+            margin-bottom: 8%;
+            }
+            .price-title .p-title1{
+            font-size: 1.8rem;
+            font-weight: 700;
+         
+            }
+            .price .price-container{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-wrap: wrap;
+            width: 85%;
+            /* border: 2px solid red; */
+            }
+            .price-title .p-title2{
+            font-size: 2.2rem;
+            
+            }
+
+
+            .price-container .price-box{
+                margin-bottom: 7%;
+                box-shadow: 0px 0px 5px 1.5px rgba(0,0,0,0.75);
+                text-align: center;
+                padding: 20px 55px;
+            width: 300px;
+            height: 450px;
+            border-radius: 8px;
+            
+            }
+            .price-container .price-box:hover{
+                box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.75);
+            }
+            .price-box .p-plan{
+                margin-top: 0.8rem;
+                margin-bottom: 1rem;
+            font-size: 1.4rem;
+           
+            }
+            .price-box .p-amount{
+            font-size: 2.5rem;
+            margin-bottom: 2.5rem;
+            color: rgb(10, 164, 175);
+            
+            }
+            .p-amount span{
+            font-size: 1.8rem;
+            letter-spacing: 6px;
+            color: black;
+            }
+            .price-box .p-desc{
+            margin-bottom: 2.5rem;
+           
+            text-align: start;
+            }
+            .price .price-btn{
+            padding: 14px 45px;
+            /* text-align: center; */
+            font-size: 0.92rem;
+            color: rgb(10, 164, 175);
+            font-weight: 700;
+            border-radius: 5px;
+            border: 2px solid rgb(10, 164, 175);
+            background-color: white;
+            cursor: pointer;
+            
+            
+            }
+            .price .price-btn:hover{
+                color: white;
+                background-color:  rgb(10, 164, 175);
+                
+                }
+            
+            
+    }

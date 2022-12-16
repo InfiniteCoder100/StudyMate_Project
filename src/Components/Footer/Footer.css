@@ -1,0 +1,352 @@
+.footer-letter{
+    /* margin-bottom: 10%; */
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(18, 141, 135);
+    /* color: white; */
+    /* margin-bottom: 10%; */
+    margin-top: 0%;
+}
+.footer1{
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin: 50px 0;
+padding: 40px 0;
+width: 80%;
+
+
+}
+.footer1 .f1-left{
+display: flex;
+flex-direction: column;
+/* border: 2px solid black; */
+
+}
+.f1-left .f1-heading{
+font-size: 2rem;
+font-weight:500 ;
+color: white;
+margin-bottom: 2px;
+text-align: center;
+}
+.f1-left .f1-para{
+font-size: 1.2rem;
+color: rgb(255, 255, 255);
+}
+.footer-letter .f1-right{
+display: flex;
+/* flex-direction: column; */
+justify-content: space-between;
+align-items: center;
+/* color: white; */
+/* border: 2px solid red; */
+}
+.f1-right input{
+width: 40rem;
+padding: 25px;
+border: none;
+outline: none;
+height: 30px;
+font-size: 1.1rem;
+border-radius: 5px 0 0px 5px;
+
+
+}
+.f1-right input::placeholder{
+    font-size: 20px;
+   
+}
+.f1-right i{
+    /* width: 25px; */
+    padding: 17px;
+    color: rgb(4, 196, 132);
+    background-color: white;
+    /* border: 2px solid red; */
+    cursor: pointer;
+    transition: 0.5s all;
+    border-radius: 0px 5px 5px 0px;
+}
+
+
+
+/* main footer */
+footer{
+    /* background-color: rgb(176, 174, 174); */
+    /* margin-bottom: 5%; */
+    /* margin-top: 10%; */
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+footer .main-footer{
+    display: grid;
+    grid-template-columns: 4fr 3fr 3fr 4fr;
+    grid-gap: 40px;
+    margin: 0 14rem;
+    /* margin-top: 4%; */
+}
+
+.main-footer .f-box1 .box1-desc{
+color: rgb(6, 187, 187);
+font-size: 1.1rem;
+font-weight: 500;
+padding: 4rem 0;
+margin: 30px 0px 15px 0px;
+}
+.main-footer .f-box1 .box1-desc2{
+    margin: 30px 0px 20px 0px;
+    color: rgb(78, 76, 76);
+    
+    font-size:18px;
+}
+
+footer .f-box1 i{
+    margin-right:15px;
+  width: 45px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+    transition: 0.5s;
+    text-align: center;
+    background-color: rgb(10, 164, 175);
+    cursor: pointer;
+}
+footer .f-box1 i:hover{
+  
+    color: rgb(0, 0, 0);
+   
+}
+
+/* explore */
+
+.main-footer .box-explore{
+    /* border: 2px solid black; */
+}
+
+footer h3{
+    margin-bottom: 30px;
+    font-weight: 500;
+    font-size: 1.4rem;
+}
+footer .box-explore ul li{
+    margin-bottom: 10px;
+    list-style: none;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+footer .box-explore ul li::before{
+    /* margin-left: 5px; */
+   content: "→";
+   color:rgb(19, 16, 226) ;
+   font-size: 1.5rem;
+   font-weight: 500;
+}
+
+/* Quick Link */
+.main-footer .quick-link{
+    /* border: 2px solid black; */
+}
+
+
+footer .quick-link ul li{
+    margin-bottom: 10px;
+    list-style: none;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+footer .quick-link ul li::before{
+    /* margin-left: 5px; */
+   content: "→";
+   color:rgb(19, 16, 226) ;
+   font-size: 1.5rem;
+   font-weight: 500;
+}
+
+/* question */
+.main-footer .question{
+    /* border: 2px solid black; */
+}
+
+
+footer .question ul li{
+    margin-bottom: 18px;
+    list-style: none;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.main-footer .question i{
+    color: rgb(19, 16, 226);
+}
+
+
+/* legal */
+.legal{
+    /* margin-bottom: 10%; */
+    /* border:2px solid red; */
+    padding: 2% 0;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 500;
+    background-color: rgb(18, 141, 135);
+    letter-spacing: 1px;
+}
+.legal i{
+    color: red;
+}
+
+@media screen and (max-width:768px){
+    .footer1{
+      
+        flex-direction: column;
+        
+        margin: 20px 0;
+        padding: 20px 0;
+        width: 90%;
+        
+        
+        }
+      
+        .f1-left .f1-heading{
+        font-size: 1.4rem;
+      
+        text-align: center;
+        }
+        .f1-left .f1-para{
+        font-size: 1rem;
+        text-align: center;
+       
+        }
+        .footer-letter .f1-right{
+        
+        align-items: center;
+       
+        }
+        .f1-right input{
+            /* padding-top: 15px; */
+            margin-top: 18px;
+        width: 17rem;
+     
+        
+        
+        }
+        .f1-right input::placeholder{
+            font-size: 20px;
+           
+        }
+        .f1-right i{
+            /* width: 25px; */
+            padding: 17px;
+            margin-top: 18px;
+
+        }
+
+
+        footer .main-footer{
+            display: grid;
+            grid-template-columns:repeat(2,1fr);
+            grid-gap: 30px;
+            margin: 0 1rem;
+            /* margin-top: 4%; */
+        }
+
+        footer{
+          
+       padding-top: 12%;
+       padding-bottom: 4%;
+        }
+
+        .f-box1 .box1-title{
+            font-size: 1.5rem;
+        }
+        .main-footer .f-box1 .box1-desc{
+     
+        font-size: 0.8rem;
+    
+        }
+        .main-footer .f-box1 .box1-desc2{
+       
+            
+            font-size:14px;
+        }
+        
+        footer .f-box1 i{
+            margin-right:20px;
+            margin-bottom: 15px;
+       
+        }
+        
+        /* explore */
+    
+        footer h3{
+            margin-bottom: 30px;
+            font-weight: 500;
+            font-size: 1.4rem;
+        }
+        footer .box-explore ul li{
+            margin-bottom: 5px;
+            
+            font-size: 16px;
+            
+        }
+        footer .box-explore ul li::before{
+     
+           color:rgb(4, 132, 141) ;
+           font-size: 1.2rem;
+           
+        }
+        
+        /* Quick Link */
+        .main-footer .quick-link{
+            /* border: 2px solid black; */
+        }
+        
+        
+        footer .quick-link ul li{
+            margin-bottom: 5px;
+            
+            font-size: 16px;
+        }
+        footer .quick-link ul li::before{
+            color:rgb(4, 132, 141) ;
+            font-size: 1.2rem;
+        }
+        
+        /* question */
+      
+        
+        
+        footer .question ul li{
+            margin-bottom: 15px;
+            
+            font-size: 12px;
+            /* text-align: center; */
+           
+            
+        }
+        .main-footer .question i{
+            color: rgb(4, 132, 141);
+        }
+        
+        
+        /* legal */
+        .legal{
+            /* margin-bottom: 10%; */
+            /* border:2px solid red; */
+            padding: 6% 0;
+            text-align: center;
+            font-size: 0.75rem;
+         
+        }
+        .legal i{
+            color: red;
+        }
+        
+}

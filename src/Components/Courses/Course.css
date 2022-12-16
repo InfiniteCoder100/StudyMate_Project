@@ -1,0 +1,162 @@
+.courses{
+/* border: 2px solid red; */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-bottom: 4%;
+}
+.courses .course-title{
+text-align: center;
+font-size: 2.5rem;
+margin-bottom: 4rem;
+    /* border: 2px solid rgb(3, 3, 3); */
+}
+.courses .course-container{
+width: 85%;
+display: flex;
+align-items: center;
+ justify-content: space-between;
+    /* border: 2px solid rgb(255, 162, 0); */
+    flex-wrap: wrap;
+
+}
+.course-container .course-box{
+    /* border: 2px solid rgb(16, 241, 8);  */
+    display: flex;
+   /* justify-content: center; */
+   background-color: white;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    /* align-items: center; */
+    width: 15%;
+    height: 350px;
+    border: none;
+    outline: none;
+    margin-bottom: 25px;
+    box-shadow: 0 3px 8px black;
+    /* position: relative; */
+    border-radius: 8px;
+    transition: 0.3s all ease-in-out;
+}
+.course-container .course-box:hover{
+    background-color: rgb(244, 226, 241);
+    box-shadow: 0 8px 30px black;
+}
+.course-box .course-img{
+    /* box-shadow: 0 3px 8px black; */
+    /* background-color: white; */
+    /* margin-bottom: 95px; */
+    width: 140px ;
+    height: 140px;
+    margin-bottom: 1rem ;
+    margin-top: 2.5rem;
+    /* margin: auto; */
+    
+    /* position: absolute; */
+    /* top: 10; */
+    /* border: 2px solid rgb(8, 55, 241); */
+}
+.course-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    color: aquamarine;
+    
+}
+.course-box .course-name{
+padding-bottom: 1rem;
+font-size: 1.2rem;
+color: rgb(5, 145, 160);
+letter-spacing: 1px;
+font-weight: 700;
+text-align: center;
+}
+.course-box .total-courses{
+font-size: 1.1rem;
+cursor: pointer;
+color: blue;
+ /* border: 2px solid rgb(16, 241, 8);  */
+ padding: 8px;
+ font-weight: 500;
+ border: none;
+ outline: none;
+ border-radius: 12px;margin-bottom: 15px;
+ /* transition: 0.4s all */
+}
+.course-box:hover .total-courses{
+   
+     /* border: 2px solid rgb(16, 241, 8); */
+     background-color: rgb(74, 72, 72); 
+     
+     outline: none;
+     color: white;
+     /* border: none; */
+     border-radius: 12px;
+    }
+
+    @media screen and (max-width:768px){
+        .courses{
+            margin-top: 12%;
+            margin-bottom: 4%;
+            }
+            .courses .course-title{
+            text-align: center;
+            font-size: 2.1rem;
+            margin-bottom: 3rem;
+            text-align: center;
+            margin-left: 25px;
+            margin-right: 25px;
+            letter-spacing: 1px;
+             
+            }
+            .courses .course-container{
+            width: 95%;
+            display: flex;
+            align-items: center;
+             justify-content: space-between;
+                /* border: 2px solid rgb(255, 162, 0); */
+                /* flex-wrap: wrap; */
+            
+            }
+            .course-container .course-box{
+                /* border: 2px solid rgb(16, 241, 8);  */
+                display: flex;
+               justify-content: center;
+               background-color: white;
+                flex-direction: column;
+                align-items: center;
+                /* align-items: center; */
+                width: 47%;
+                height: 270px;
+                border: none;
+                outline: none;
+                margin-bottom: 25px;
+                box-shadow: 0 3px 8px black;
+                /* position: relative; */
+                border-radius: 8px;
+                transition: 0.3s all ease-in-out;
+            }
+         
+            .course-box .course-img{
+               
+                width: 110px ;
+                height: 110px;
+                margin-bottom: 1.5rem ;
+                margin-top: 1.2rem;
+         
+            }
+       
+            .course-box .course-name{
+            padding-bottom: 1.5rem;
+            font-size: 1.2rem;
+           
+            text-align: center;
+            }
+            .course-box .total-courses{
+            font-size: 1.1rem;
+          
+            }
+         
+    }

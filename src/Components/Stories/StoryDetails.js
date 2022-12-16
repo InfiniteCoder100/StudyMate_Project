@@ -1,0 +1,290 @@
+export const story_data=[
+    {
+        name:"Amit patil",
+        branch:"Mech",
+        code:"Ektn01",
+        place:"Karnataka",
+        package:"5",
+        role:"Developer",
+        batch:"2020",
+        img:"image/s8.JPG"
+    },
+
+        {
+            name:"Vinayak M",
+        branch:"Diploma",
+        code:"Ektn02",
+        place:"Karnataka",
+        package:"5",
+        role:"Developer",
+        batch:"2020",
+        img:"image/s12.JPG"
+    },
+    {
+        name:"Sanya jatti",
+        branch:"Bse",
+        code:"Ektn03",
+        place:"Karnataka",
+        package:"5",
+        role:"Developer",
+        batch:"2025",
+        img:"image/s2.jpg"
+    },
+    {
+        name:"mallikarjun B",
+        branch:"mech",
+        code:"Ektn04",
+        place:"Karnataka",
+        package:"5",
+        role:"Developer",
+        batch:"2025",
+        img:"image/s9.JPG"
+    },
+    {
+        name:"sachin patil",
+        branch:"mech",
+        code:"Ektn05",
+        place:"Karnataka",
+        package:"5",
+        role:"Developer",
+        batch:"2025",
+        img:"image/s10.JPG"
+    },
+    {
+        name:"Varsha T",
+        branch:"mech",
+        code:"Ektn06",
+        place:"Karnataka",
+        package:"5",
+        role:"Developer",
+        batch:"2025",
+        img:"image/s5.png"
+    },
+    {
+        name:"Sharanu H",
+        branch:"mech",
+        code:"Ektn07",
+        place:"Karnataka",
+        package:"5",
+        role:"Developer",
+        batch:"2025",
+        img:"image/s13.JPG"
+    },
+    {
+        name:"Aishani S",
+        branch:"mech",
+        code:"Ektn08",
+        place:"Karnataka",
+        package:"5",
+        role:"Developer",
+        batch:"2025",
+        img:"image/s7.JPG"
+    },
+    {
+        name:"Meghana m",
+        branch:"mech",
+        code:"Ektn09",
+        place:"Karnataka",
+        package:"5",
+        role:"Developer",
+        batch:"2025",
+        img:"image/s16.JPG"
+    },
+    {
+        name:"Ganesh Bandi",
+        branch:"mech",
+        code:"Ektn10",
+        place:"Karnataka",
+        package:"5",
+        role:"Developer",
+        batch:"2025",
+        img:"image/s17.jpeg"
+    },
+    {
+        name:"Halesh Pujar",
+        branch:"mech",
+        code:"Ektn11",
+        place:"Karnataka",
+        package:"5",
+        role:"Developer",
+        batch:"2025",
+        img:"image/s15.JPG"
+    },
+    {
+        name:"Bhagya pujar",
+        branch:"mech",
+        code:"Ektn12",
+        place:"Karnataka",
+        package:"5",
+        role:"Developer",
+        batch:"2025",
+        img:"image/s19.Jpeg"
+    },
+    {
+        name:"Shankar P",
+        branch:"mech",
+        code:"Ektn13",
+        place:"Karnataka",
+        package:"5",
+        role:"Developer",
+        batch:"2025",
+        img:"image/s3.JPG"
+    },
+    {
+        name:"Rachana K",
+        branch:"mech",
+        code:"Ektn14",
+        place:"Karnataka",
+        package:"5",
+        role:"Developer",
+        batch:"2025",
+        img:"image/s18.JPG"
+    },
+    {
+        name:"Marina N",
+        branch:"mech",
+        code:"Ektn15",
+        place:"Karnataka",
+        package:"5",
+        role:"Developer",
+        batch:"2025",
+        img:"image/s5.png"
+    },
+    {
+        name:"sunil shetty",
+        branch:"mech",
+        code:"Ektn16",
+        place:"Karnataka",
+        package:"5",
+        role:"Developer",
+        batch:"2025",
+        img:"image/s6.JPG"
+    },
+    
+]
+
+export const company=[
+    {
+        id:1,
+        image:"image/c1-removebg-preview.png"
+    },
+    {
+        id:2,
+        image:"image/c2-removebg-preview.png"
+    },
+    {
+        id:3,
+        image:"image/c3-removebg-preview.png"
+    },
+    {
+        id:4,
+        image:"image/c4-removebg-preview.png"
+    },
+    {
+        id:5,
+        image:"image/c5-removebg-preview.png"
+    },
+    {
+        id:6,
+        image:"image/c6-removebg-preview.png"
+    },
+    {
+        id:7,
+        image:"image/c7-removebg-preview.png"
+    },
+    {
+        id:8,
+        image:"image/c8-removebg-preview.png"
+    },
+    {
+        id:9,
+        image:"image/c9-removebg-preview.png"
+    },
+    {
+        id:10,
+        image:"image/c10-removebg-preview.png"
+    },
+    {
+        id:11,
+        image:"image/c11-removebg-preview.png"
+    },
+    {
+        id:12,
+        image:"image/c12-removebg-preview.png"
+    },
+    {
+        id:13,
+        image:"image/c13-removebg-preview.png"
+    },
+    {
+        id:14,
+        image:"image/c14-removebg-preview.png"
+    },
+    {
+        id:15,
+        image:"image/c15-removebg-preview.png"
+    },
+    {
+        id:16,
+        image:"image/c16-removebg-preview.png"
+    },
+    {
+        id:17,
+        image:"image/c17-removebg-preview.png"
+    },
+    {
+        id:18,
+        image:"image/c18-removebg-preview.png"
+    },
+    {
+        id:19,
+        image:"image/c19-removebg-preview.png"
+    },
+    {
+        id:20,
+        image:"image/c20-removebg-preview.png"
+    },
+    {
+        id:21,
+        image:"image/c21-removebg-preview.png"
+    },
+    {
+        id:22,
+        image:"image/c22-removebg-preview.png"
+    },
+    {
+        id:23,
+        image:"image/c23-removebg-preview.png"
+    },
+    {
+        id:24,
+        image:"image/c24-removebg-preview.png"
+    },
+    {
+        id:25,
+        image:"image/c25-removebg-preview.png"
+    },
+
+
+]
+
+
+export const certificate_approved=[
+    {
+        id:1,
+        image:"image/ac4-removebg-preview.png"
+    },
+    {
+        id:2,
+        image:"image/ac2-removebg-preview.png"
+    },
+    {
+        id:3,
+        image:"image/ac3-removebg-preview.png"
+    },
+    {
+        id:4,
+        image:"image/ac1-removebg-preview.png"
+    }
+]
+
