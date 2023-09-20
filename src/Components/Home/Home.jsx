@@ -19,8 +19,8 @@ const Home = () => {
 <div className='logo'>
 
 <div className='title'>
-<h1>EDUCATION</h1>
-<span>ONLINE EDUCATION & LEARNING</span>
+<h1>STUDYMATE</h1>
+<span>PERSONALIZED EDUCATION & LEARNING</span>
 </div>
 
 <div className='social'>

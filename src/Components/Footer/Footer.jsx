@@ -21,8 +21,8 @@ const Footer = () => {
   <footer>
     <div className="main-footer">
         <div className="f-box1">
-            <h1 className="box1-title">EDUCATION</h1>
-            <span className="box1-desc">ONLINE EDUCATION AND LEARNING</span>
+            <h1 className="box1-title">STUDYMATE</h1>
+            <span className="box1-desc">PERSONALIZED EDUCATION AND LEARNING</span>
             <p className='box1-desc2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, ducimus!</p>
             <div className="footer-social">
             <i className='fab fa-facebook-f icon'></i>
@@ -75,7 +75,7 @@ const Footer = () => {
 
     <li>
     <i className='fa fa-paper-plane'></i>
-sharangadagi@gmail.com
+   kundan773599@gmail.com
     </li>
    
     
@@ -87,7 +87,7 @@ sharangadagi@gmail.com
 
   <div className="legal">
     <p className="legal-desc">
-      Copyright @2022 All rights reserved | This website is made with <i className='fa fa-heart'></i> by Shaan.G
+      Copyright @2023 All rights reserved | This website is made with <i className='fa fa-heart'></i> by Team CodeSprit.
     </p>
   </div>
   </>
