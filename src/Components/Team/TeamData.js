@@ -9,7 +9,7 @@ export const teamData=[
         id:2,
         name:"Harsh Agarwal",
         role:"Fullstack Web Developer",
-        img:"image/t26.jpg"
+        img:"image/t60.jpg"
     },
   
     {
@@ -35,6 +35,6 @@ export const teamData=[
         id:6,
         name:"Vaibhav Sharma",
         role:"Flutter Developer",
-        img:"image/t25.jpg"
+        img:"image/t70.jpg"
     }
 ]
