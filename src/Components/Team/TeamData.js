@@ -3,7 +3,7 @@ export const teamData=[
         id:1,
         name:"Kundan Kumar",
         role:"Web3 Developer ",
-        img:"image/t100.jpeg"
+        img:"image/t100.jpg"
     },
     {
         id:2,
