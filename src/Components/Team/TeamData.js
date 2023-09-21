@@ -3,7 +3,7 @@ export const teamData=[
         id:1,
         name:"Kundan Kumar",
         role:"Web3 Developer ",
-        img:"image/t50.jpeg"
+        img:"image/t100.jpeg"
     },
     {
         id:2,
@@ -28,7 +28,7 @@ export const teamData=[
         id:5,
         name:"Neha Singh",
         role:"Developer ",
-        img:"image/t31.jpg"
+        img:"image/t120.jpg"
     },
     
     {
